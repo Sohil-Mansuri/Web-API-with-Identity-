@@ -1,0 +1,15 @@
+@WebAPI_HostAddress = https://localhost:7089
+
+GET {{WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+POST {{WebAPI_HostAddress}}/api/account/Login
+Content-Type: application/json
+
+{
+  //LoginDto
+}
+
+###
